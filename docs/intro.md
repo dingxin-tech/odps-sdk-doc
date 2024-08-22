@@ -12,11 +12,11 @@ MaxCompute(ODPS) SDK for Java 允许开发者将他们的Java应用程序与阿�
 
 # 目录
 
-- [快速开始](quick-start)
-- [代码示例](example-code)
-- [API 参考](api-reference)
-- [常见问题](question)
-- [更新日志](changelog)
+- [快速开始](../quick-start)
+- [代码示例](../example-code)
+- [API 参考](../api-reference)
+- [常见问题](../question)
+- [更新日志](../changelog)
 
 
 # 贡献

@@ -89,7 +89,7 @@ public class Example {
 
 ### 基于Account创建ODPS实例
 Account 是用于身份验证的对象，您需要使用有效的阿里云AccessKey ID和AccessKey Secret来创建一个AliyunAccount 实例。这两个值用于标识和验证用户的身份，并提供对阿里云服务的访问权限。
-除了最基础的使用AK、SK登录的Aliyun Account外，还支持使用Sts Token方式构建ODPS实例，具体可见[Account](api-referenceccount.md)
+除了最基础的使用AK、SK登录的Aliyun Account外，还支持使用Sts Token方式构建ODPS实例，具体可见[Account](../api-referenceccount.md)
 ```java
 Account account = new AliyunAccount(accessKeyId, accessKeySecret);
 Odps odps = new Odps(account);
@@ -99,10 +99,10 @@ Odps odps = new Odps(account);
 ```java
 Table table = odps.tables().get("my_project", "my_table");
 ```
-在获取到Table实例后，即可可以进行像读取表元信息，读取表数据等多种行为。具体可参考[Table](api-referenceable.md)
+在获取到Table实例后，即可可以进行像读取表元信息，读取表数据等多种行为。具体可参考[Table](../api-referenceable.md)
 
 ### 读取表内容
-可以使用Table.read()方法对表中数据进行预览，MaxCompute Java SDK还提供了更多的方式来控制数据预览的行为。具体可参考[数据预览](example-codeable-read.md)
+可以使用Table.read()方法对表中数据进行预览，MaxCompute Java SDK还提供了更多的方式来控制数据预览的行为。具体可参考[数据预览](../example-codeable-read.md)
 ```java
 // 读取10行数据
 RecordReader reader = table.read(10);
