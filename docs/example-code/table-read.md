@@ -2,7 +2,7 @@
 id: read
 title: 数据预览
 sidebar_label: 数据预览
-sidebar_position: 1
+sidebar_position: 10
 ---
 
 # 数据预览
