@@ -78,9 +78,10 @@ sidebar_position: 3
 
 
 ## 数据下载
-
+### 待完善
 
 ## 初始化
+### 待完善
 
 在使用 `TableTunnel` 之前，需要进行初始化操作，包括设置访问ID、访问密钥、ODPS和Tunnel的端点等。
 
